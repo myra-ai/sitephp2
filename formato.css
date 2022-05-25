@@ -1,0 +1,60 @@
+*{
+padding:0; /*margin interna zerada*/
+margin:0; /* margin externa zerada */
+font-size: 18px; /*tamanho da fonte*/
+text-decoration:none; /*decoração do link*/
+color: #333; 
+list-style:none;/*bolinha que fica do lado da lista*/
+}
+body {
+background-color:#111;
+	
+}
+#geral{max-width:1200px; height:auto; overflow:hidden; margin: 0px auto}/* O estouro é cortado e o restante do conteúdo ficará invisível e o auto faz com que centralize no meio*/
+/*-------------topo do site ------------*/
+#topo{width: 100%/*LARGURA*/; height:200px;/*ALTURA*/  float:left; background-color:#DDF}
+.logo{width:250px; height:auto; float:left; margin:20px;} /*os quatros lados terão 20 de margem*/
+.links_top{float:right; padding:10px; margin:5px 2px; background-color:#145;color:#fff;}/*margem cima e baixo e margem esquerda e direito*/
+.links_top:hover{background-color:#59f;}
+/*-------------fim topo do site ------------*/
+
+/*-------------menu do site ------------*/
+#menu{width: 100%; height:50px; float:left; background-color:#145}
+.links_menu li a{float: left; padding:15px; background-color:#145; color: white;}
+.links_menu li a:hover{background-color:#59f;}
+/*-------------Fim do menu do site ------------*/
+
+/*-------------conteudo do site ------------*/
+#conteudo{width: 100%; min-height:300px; float:left; background-color:#FFF; padding-bottom:20px;}
+#conteudo_principal{width:70%; min-height:600px; float: left; border:1px solid #ccc; margin:20px 10px;}
+#recentes{width:26%; min-height:600px; float: left; border:1px solid #ccc; margin:20px 10px;}
+.postagens{width:100%; height:auto; overflow: hidden; float:left; margin:10px 0 30px 0; border:0px solid #F00;}  /*cima, direita, baixo, esquerda*/
+.titulos{font-size:20px; font-family:calibre, sans-serif; float: left; width:96; margin:10px 2%;}
+.imagem{width:100%; height: auto; float:left; margin: 5px 0; width:100%;}
+.paragrafo,.data{font-size:16px; color:#111; float:left; width:96%; font-family:calibre, sans-serif; margin:10px 2%;} /*paragrafo e data possuem a mesma formatação*/
+.postagens_recentes{width:100%; height:auto; overflow: hidden; float:left; margin:10px 0 30px 0; border:0px solid #F00;}
+.titulos a:hover{color:#59f;}
+#conteudo_principal a{padding:5px; background-color:#CCC; margin:2px;}
+#conteudo_principal a:hover{background-color:#59f;}
+/*-------------fim do conteudo do site ------------*/
+
+
+/*-------------página de contato do site ------------*/
+.campos, .campos_cad, .botoes{width:80%;margin:10px 10%;min-height:30px;float:left; padding:2px;font-size:16px;}
+.campo2{width:80%;margin:10px 10%;height:150px;float:left; padding:2px;}
+.bt_enviar{float:left; margin-left:10%; padding:5px; font-size:16px;}
+.legenda{float:left; margin-left:10%;font-size:16px;}
+#box_form{width:80%; min-height:300px; background-color: white; margin:40px auto; overflow: hidden;} /*todos os elementos que tiver de fora da div, serão englobados com o hidden*/
+.bt_cad{float:left; font-size:16px; padding: 5px; margin-right:5px;}
+.form_link{color:#59F; font-size:16px; float:left;}
+.p_form{color:#333; font-size:16px; float:left; width:100%;} /*width 100 porcento obriga a ocupar toda a linha */
+/*-------------fim da página de contato do site ------------*/
+
+
+/*-------------rodape do site ------------*/
+#rodape{width: 100%; height:50px; float:left; background-color:#DDf; padding: 10px;}
+.direitos{text-align:center;  font-size:18px;}
+/*-------------fim do rodape do site ------------*/
+
+
+/*-------------ro do site ------------*/
